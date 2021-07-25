@@ -1,0 +1,168 @@
+/* feuille de style*/
+:root{
+    --greyback:#f8f9fa;
+    --greytext:#a9aaaa;
+    --orange:#ff9900;
+    --black:#000000;
+    --white: #ffffff;
+    --grey : #999999;
+    --greystrong:#4a4a4b;
+    --green:#a2c0be;
+    --greenstrong:#567876;
+}
+body{
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: none;
+}
+    /*header*/
+header{
+    background-color:var(--greyback);
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+    /*barre de navigation*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+nav ul{
+    margin: 0px 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:50px;    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--greytext);
+    transition: opacity 500ms;
+    opacity: 0.5;
+}
+nav ul li a:hover{
+    opacity: 1;
+    transition: opacity 500ms;
+}
+    /* logo*/ 
+nav .logo{
+    color: var(--black);
+    font-size: 30px;
+    text-decoration: none;
+}
+nav .logo .dot{
+    color: var(--orange);
+}
+    /*fin du logo*/
+
+    /*élements titre & slogan*/
+header .slogan{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    /*titre*/
+header h1{
+    font-size: 3em;
+    font-weight: lighter;
+    margin-bottom: -20px;
+}
+header h2{
+    font-weight:lighter;
+}
+    /*image du bulldog*/
+header img{
+    width: 25%;
+}
+
+/*fin du header*/
+
+/*main*/
+/*1er paragraphe élement 1*/ 
+main .welcom{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 10%;
+}
+main .welcom h3{
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+/*les3 boutons read more*/ 
+.btn{
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--green);
+    border-radius: 100px;
+    width: 20%;
+    padding: 10px 20px;
+    transition: background-color 500ms;
+}
+.btn:hover{
+    background-color: var(--black);
+    transition: background-color 500ms;
+}
+
+/*section 2* "Love"*/
+.love{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+.love div{
+    text-align : right;
+    margin-right: 10%;
+}
+.love img{
+    width: 90%;
+    margin: auto;
+    box-shadow: 8px 8px 0px var(--greenstrong)
+}
+
+/*section 3 "Fearsome"*/ 
+.fearsome{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+.fearsome div{
+    margin-left: 10%;
+}
+.fearsome img{
+    width: 90%;
+    margin: auto;
+    box-shadow: 8px 8px 0px var(--greenstrong)
+}
+
+/*section 4 "beautiful"*/
+.beautiful{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+.beautiful div{
+    text-align : right;
+    margin-right: 10%;
+}
+.beautiful img{
+    width: 90%;
+    margin: auto;
+    box-shadow: 8px 8px 0px var(--greenstrong)
+}
+
+/*footer*/
+footer{
+    text-align: center;
+}

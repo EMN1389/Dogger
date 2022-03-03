@@ -1,5 +1,9 @@
 # Dogger
+Dans le cadre de la formation Access Code School nous avons eu un exercice d'intégration en 3h. 
 
+Voici les consignes : 
+
+#Consignes 
 Vous venez de trouver un nouveau client et celui-ci à besoin de vous pour intégrer une maquette fournie.  
 Toutes les images, les couleurs et la police de caractères vous sont fournis :
 
@@ -33,6 +37,7 @@ Seuls les commentaires peuvent se trouver en français.
 Vous devez être le plus fidèle possible à la maquette fournis.  
 **Le client est exigeant et refusera le "à peu près".**
 
-## Preview
+## Le résultat demandé 
+Vous trouverez mon résultat sur le lien en haut à droite ;) 
 
 ![Template à intégrer](preview.png)

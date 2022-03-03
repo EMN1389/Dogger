@@ -1,14 +1,13 @@
 # Dogger
 Dans le cadre de la formation Access Code School nous avons eu un exercice d'intégration en 3h. 
 
-Voici les consignes : 
 
-#Consignes 
+## Consignes 
+
 Vous venez de trouver un nouveau client et celui-ci à besoin de vous pour intégrer une maquette fournie.  
 Toutes les images, les couleurs et la police de caractères vous sont fournis :
 
-## Éléments
-
+Elements : 
 Couleurs :
 ```
 Blanc : #ffffff;
